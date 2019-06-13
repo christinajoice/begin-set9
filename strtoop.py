@@ -1,4 +1,4 @@
-str=input("Enter a string")
+str=input()
 li=str.split(" ")
 num1=int(li[0])
 num2=int(li[2])
@@ -12,6 +12,6 @@ elif op=='*':
 elif op=='/':
   result=num1/num2
 elif op=='%':
-  result=num1+num2
-print (int(esult))
+  result=num1%num2
+print (int(result))
   
