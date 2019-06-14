@@ -1,5 +1,5 @@
 #christinajoice
-str=input("enter a string")
+str=input()
 num=''
 for i in str:
   if i.isdigit():
